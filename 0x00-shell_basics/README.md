@@ -4,4 +4,4 @@ ls: display the list of content in your working directory.
 cd: changes directory to home.
 ls -l: list content in long format.
 ls -la: current directory contents, including hidden files (starting with a dot).
-ls -n: display all content with group IDs.
+ls -na: display all content with group IDs.
