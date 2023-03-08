@@ -6,3 +6,4 @@ ls -l: list content in long format.
 ls -la: current directory contents, including hidden files (starting with a dot).
 ls -na: display all content with group IDs.
 mkdir /tmp/my_first_directory: creates a directory named my_first_directory in the /tmp/ directory.
+mv /tmp/betty /tmp/my_first_directory/ : Move the file betty from /tmp/ to /tmp/my_first_directory.
