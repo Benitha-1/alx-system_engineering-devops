@@ -9,3 +9,4 @@ chmod u+x,g+x,o+r hello: script that adds execute permission to the owner and th
 chmod ugo+x hello: script that adds execution permission to the owner, the group owner and the other users, to the file hello.
 chmod 007 hello: script that sets the permission to the file hello to other users only.
 chmod 753 hello: script that sets the mode of the file hello to this: -rwxr-x-wx.
+chmod --reference=olleh hello: script that sets the mode of the file hello the same as olleh’s mode.
