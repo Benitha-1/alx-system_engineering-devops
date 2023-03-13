@@ -13,3 +13,4 @@ find . -type f -name "*.js" -delete: deletes all the regular files (not the dire
 find . -type d -not -name '.' | wc -l: script that counts the number of directories and sub-directories in the current directory.
 ls -t1 | head -n 10: script that displays the 10 newest files in the current directory.
 sort | uniq -u: script that takes a list of words as input and prints only words that appear exactly once.
+grep -i "root" /etc/passwd: Display lines containing the pattern “root” from the file /etc/passwd.
