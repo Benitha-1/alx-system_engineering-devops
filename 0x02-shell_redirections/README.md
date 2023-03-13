@@ -21,5 +21,6 @@ grep -i "^[a-z]" /etc/ssh/sshd_config: Display all lines of the file /etc/ssh/ss
 tr "A" "Z" | tr "c" "e": Replace all characters A and c from input to Z and e respectively .
 tr -d "cC": script that removes all letters c and C from input.
 rev: script that reverse its input.
-cut -d ':' -f 1,6 /etc/passwd | sort: displays all users and their home directories, sorted by users.
-find . -empty | rev | cut -d '/' -f 1 | rev:  finds all empty files and directories in the current directory and all sub-directories.
+cut -d ':' -f 1,6 /etc/passwd | sort: displasys all users and their home directories, sorted by users.
+find . -empty | rev | cut -d '/' -f 1 | rev:  finds all empty files and directories in the current directory and all sub-directorie.
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f: lists all the files with a .gif extension in the current directory and all its sub-directories.
