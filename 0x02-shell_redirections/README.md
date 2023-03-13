@@ -11,3 +11,4 @@ ls -la > ls_cwd_content: writes into the file ls_cwd_content the result of the c
 tail -n 1 iacta >> iacta: duplicates the last line of the file iacta.
 find . -type f -name "*.js" -delete: deletes all the regular files (not the directories) with a .js extension.
 find . -type d -not -name '.' | wc -l: script that counts the number of directories and sub-directories in the current directory.
+ls -t1 | head -n 10: script that displays the 10 newest files in the current directory.
