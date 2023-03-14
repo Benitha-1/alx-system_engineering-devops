@@ -15,3 +15,4 @@ echo {a..z}{a..z} | tr " " "\n" | grep -v "oo": a script that prints all possibl
 printf "%.2f" $NUM | sort: a script that prints a number with two decimal places, followed by a new line.
 printf '%x\n' $DECIMAL: a script that converts a number from base 10 to base 16.
 tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`: a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+perl -lne 'print if $. % 2 == 1': a script that prints every other line from the input, starting with the first line.
